@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.generadordeinformesmejorado.PiratasControlador">
+   <children>
+      <Label layoutX="92.0" layoutY="68.0" text="Piratas">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="100.0" layoutX="6.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/eustass_kid_jolly_roger_by_serge96_d9w68r8-414w-2x.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="100.0" layoutX="5.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/d9weqrx-ae25b910-b14d-4f1b-8cb3-6fedca8c38ad.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="128.0" layoutY="158.0" text="Generación:" />
+      <ComboBox fx:id="Generation" layoutX="103.0" layoutY="184.0" prefHeight="25.0" prefWidth="112.0" />
+      <Label layoutX="128.0" layoutY="235.0" text="Recompensa:" />
+      <RadioButton fx:id="Mayor" layoutX="65.0" layoutY="265.0" mnemonicParsing="false" text="Mayor que">
+         <toggleGroup>
+            <ToggleGroup fx:id="Bounty" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="Menor" layoutX="64.0" layoutY="290.0" mnemonicParsing="false" text="Menor que" toggleGroup="$Bounty" />
+      <Button layoutX="135.0" layoutY="332.0" mnemonicParsing="false" onAction="#enviar" text="Enviar" />
+      <ImageView fitHeight="90.0" fitWidth="92.0" layoutX="230.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/d9wf7ln-0307984c-b2d5-482f-b28b-e46a0e1c9392.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="92.0" layoutX="233.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/d9wajat-c2b1db6e-b4c2-491a-a4b6-e620b5ff1c0e.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Recompensa" layoutX="163.0" layoutY="278.0" prefHeight="25.0" prefWidth="92.0" />
+   </children>
+</Pane>

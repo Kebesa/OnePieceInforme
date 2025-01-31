@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.generadordeinformesmejorado","l":"Main"},{"p":"com.example.generadordeinformesmejorado","l":"MarineControlador"},{"p":"com.example.generadordeinformesmejorado","l":"PiratasControlador"},{"p":"com.example.generadordeinformesmejorado","l":"PrimerControlador"}];updateSearchResults();
