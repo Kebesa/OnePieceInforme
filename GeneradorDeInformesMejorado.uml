@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/hyper/Downloads/GeneradorDeInformesMejorado</OriginalElement>
+  <nodes>
+    <node x="-97.02641508958061" y="-13.030712391056511">com.example.generadordeinformesmejorado.PiratasControlador</node>
+    <node x="-75.50958176244538" y="263.66170997226754">com.example.generadordeinformesmejorado.Main</node>
+    <node x="210.1308311101027" y="50.94310679329918">com.example.generadordeinformesmejorado.MarineControlador</node>
+    <node x="515.4318094108951" y="149.03006496695198">com.example.generadordeinformesmejorado.PrimerControlador</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.9853658536585368" showDependencies="true" x="316.99999999999994" y="191.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
